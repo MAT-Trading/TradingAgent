@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://MAT-Trading.github.io',
                 'git_url': 'https://github.com/MAT-Trading/TradingAgent',
                 'lib_path': 'TradingAgent'},
-  'syms': {'TradingAgent.core': {'TradingAgent.core.foo': ('core.html#foo', 'TradingAgent/core.py')}}}
+  'syms': { 'TradingAgent.core': { 'TradingAgent.core.bar': ('core.html#bar', 'TradingAgent/core.py'),
+                                   'TradingAgent.core.foo': ('core.html#foo', 'TradingAgent/core.py')},
+            'TradingAgent.fundemental': { 'TradingAgent.fundemental.bar': ('tools/fundemental.html#bar', 'TradingAgent/fundemental.py'),
+                                          'TradingAgent.fundemental.foo': ('tools/fundemental.html#foo', 'TradingAgent/fundemental.py')}}}
