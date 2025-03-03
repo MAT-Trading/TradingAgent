@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "TradingAgent"
+  site-url: "https://MAT-Trading.github.io/TradingAgent"
+  description: "A repo containing a trading agent and it's associated tools"
+  repo-branch: main
+  repo-url: "https://github.com/MAT-Trading/TradingAgent"
