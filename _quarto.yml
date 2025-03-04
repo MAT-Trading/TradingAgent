@@ -4,7 +4,7 @@ project:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: .github/pages/styles.css
     toc: true
     keep-md: true
   commonmark: default
@@ -19,4 +19,4 @@ website:
   sidebar:
     style: floating
 
-metadata-files: [nbdev.yml, sidebar.yml]
+metadata-files: [.github/pages/nbdev.yml, .github/pages/sidebar.yml]
